@@ -164,7 +164,7 @@ Supports filters:
 ## 🙌 Credits
 
 Built with ❤️ by  
-**Shaunak & Team**
+**Team InnoVerse**
 
 ---
 
