@@ -1,5 +1,1 @@
-We are building an AI-powered Smart Research Assistant that allows users
-to search datasets, explore visually, ask natural-language questions, and
-generate insights + reports.
-
-Goal: make research simpler, faster, and more accessible.
+We built a Smart Research Assistant that keeps scientific analysis accurate and transparent while making insights easier to understand. The backend handles all data analysis, and the AI is used only to explain verified results in simple language, helping users learn what the data says and why.
