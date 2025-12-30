@@ -1,16 +1,121 @@
-# React + Vite
+# 🌎 Smart Research Assistant — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive research dashboard to analyze Earthquake and Ocean datasets — with clean UI, filters, charts, and an AI assistant.
 
-Currently, two official plugins are available:
+Built using:
+React + Vite
+Chart.js (react-chartjs-2)
+FastAPI backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌊 Ocean Dashboard
+• Temperature analytics
+• Year range filter
+• Region filtering
+• Multiple metrics (Temp / pH / Species)
+• Smooth charts
 
-## Expanding the ESLint configuration
+🌎 Earthquake Dashboard
+• Magnitude histogram
+• Trends over time
+• Filter by year, magnitude, region
+• Hover insights
+• AI interpretation panel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🤖 AI Assistant
+Ask questions about datasets and get instant insights.
+
+------------------------------------------------------------
+
+## 📁 Project Structure
+
+frontend/
+  src/
+    pages/
+    components/
+      charts/
+      ui/
+    App.jsx
+    main.jsx
+  public/
+  package.json
+
+------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+1) Open terminal and go to frontend folder:
+    cd frontend
+
+2) Install dependencies:
+    npm install
+
+3) Run development server:
+    npm run dev
+
+App runs at:
+    http://localhost:5173
+
+Make sure backend is running at:
+    http://127.0.0.1:8000
+
+------------------------------------------------------------
+
+## 🔌 API Endpoints Used
+
+Dashboard Data:
+    /dashboard/ocean
+    /dashboard/earthquakes/summary
+
+AI Assistant:
+    /ai/ask
+
+------------------------------------------------------------
+
+## 🏗 Build for Production
+
+Build command:
+    npm run build
+
+Output generated in:
+    dist/
+
+You can deploy to Netlify, Vercel, GitHub Pages, etc.
+
+------------------------------------------------------------
+
+## 🤝 Contributors
+
+Team roles included:
+• UI / UX Design
+• Frontend Development
+• Backend & APIs
+• Data Analytics
+• AI Assistant
+• Debugging & Integration
+
+------------------------------------------------------------
+
+## ⭐ Future Enhancements
+
+• Real-time live maps
+• More datasets
+• Downloadable reports
+• Custom dashboards
+• Smarter AI responses
+• Authentication
+
+------------------------------------------------------------
+
+## 🎯 Purpose
+
+This project helps students and researchers analyze environmental data visually and interactively.
+
+------------------------------------------------------------
+
+## 📜 License
+
+Free for educational and research use.
